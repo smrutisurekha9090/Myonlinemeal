@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myonlinemeal.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <nav id="navbar">
+            <ul>
+                <li class="nav-item"><a href=""><b>H o m e</b></a></li>
+                <li class="nav-item"><a href=""><b>O r d e r</b></a></li>
+                <li class="nav-item"><a href=""><b>F o o d</b></a></li>
+                <li class="nav-item"><a href=""><b>R e s t a u r a n t</b></a></li>
+                <li class="nav-item"><a href=""><b>T e s ti m o n i a l s</b></a></li>
+                <li class="nav-item"><a href=""><b>C o n t a c t U s</b></a></li>
+            </ul>
+            <div class="container-bar" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+
+
+        <div class="flex-container-one">
+            <div class="container-menu-item">
+                <h1><b>LOREM IPSUM</b></h1>
+                <div class="container-menu-item-para">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        id est vitae dolor rhoncus tristique. Maecenas metus quam,
+                        rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+                        dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+                        Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+                        Sed pulvinar, massa ac porta viverra.</p>
+                </div>
+                <div class="container-menu-item-button">
+                    <button>Click Me</button>
+                </div>
+            </div>
+            <div class="container-menu-photo">
+                <img  id="img_1" src="img-1.jpg" alt="Burger">
+            </div>
+        </div>
+
+
+
+        <div class="flex-container-second">
+            <div class="flex-container-inner">
+                <div class="flex-container-inner-img2">
+                    <img src="img-2.jpg" alt="The Stage">
+                </div>
+                <div class="responsive_img">
+                    <img src="img-3.jpg" alt="The Stage">
+                </div>
+            </div>
+            <div class="responsive_img">
+                <img src="img-4.jpg" alt="The Stage">
+            </div>
+            <div class="flex-container-inner-button">
+                <div>
+                    <p >LOREM IPSUM</p>
+                    <h1 class="flex-container-inner-heading"><b>LOREM IPSUM SET ADEMIR</b></h1>
+                    <div class="flex-container-inner-icon">
+                        <div> <p>Click Here</p></div>
+                        <div><img  id="arrow" src="icons8-arrow-30.png" alt="->"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+</body>
+
+</html>
